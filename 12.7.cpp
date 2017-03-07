@@ -19,9 +19,9 @@ int main(){
 	int i;
 	for(i=0;i<ArSize;i++){
 		cout << i+1 << ": ";
-		cin.get(temp,MaxLen);
+		cin.get(temp,MaxLen).get();
 		//while(cin && cin.get() !='\n')
-			//continue;
+		//	continue;
 		if(!cin || temp[0] == '\0')
 			break;
 		else
