@@ -8,6 +8,7 @@
 
 #include	<stdio.h>
 #include	<signal.h>
+#include 	<string.h>
 
 #define	MAXARGS		20				/* cmdline args	*/
 #define	ARGLEN		100				/* token length	*/
